@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('subset-MyriadPro-Regular.eot');
+    src: url('../font/subset-MyriadPro-Regular.eot') format('embedded-opentype'),
+        url('../font/subset-MyriadPro-Regular.woff2') format('woff2'),
+        url('../font/subset-MyriadPro-Regular.woff') format('woff'),
+        url('../font/subset-MyriadPro-Regular.ttf') format('truetype'),
+        url('../font/subset-MyriadPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}   
+.body{
+    font-family: 'Myriad Pro';
+}
+.head{
+    background-color: #ffffff;
+}
+.circle{
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(../imeges/-.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #5094f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left:14px;
+    margin-top:26px;
+    margin-bottom: 21px;
+}
+.name{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22px;
+    padding-left: 15px;
+   
+}
+.menu{
+    float: right;
+    margin-top: 37px;
+    margin-right: 10px;
+}
+.href{
+    margin-right: 30px;
+    color: #6c6c6c;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;    
+}
+.back{
+    background-image: url(../imeges/backgroud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iphone{
+    background-image: url(../imeges/iphone.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 66px;
+    padding-top: 34px;
+    width: 345px;
+    height: 436px;
+}
+.aside{
+    float: right;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44.42px;
+    margin-right:90px;
+    margin-top:100px;
+    max-width: 392px;
+}
+.unit{
+    text-align: center;
+    display: inline-block;
+}
+.circle1{
+    background-image: url(../imeges/pancle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #5094f2;
+   display:inline-block;
+   width: 150px;
+   height: 150px;
+   border-radius: 75px;
+   margin-top: 57px;
+   margin-left: 60px;
+  
+} 
+.circle2.circle1{
+    background-image: url(../imeges/display.png);
+    background-color: #d94748;
+}
+.circle3.circle1{
+    background-image: url(../imeges/Symbol.png);
+    background-color:#ebbb11;
+}
+.select1{
+    color: #5094f2;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left:64px;
+}
+.txt1{
+    color: #909090;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left:64px;
+    max-width: 250px;
+}
+.unit2{
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+.shopcart{
+    display: inline-block;
+}
+.discription{
+    color: #6f7173;
+    padding-top: 91px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 44.42px;
+}
+.cart{
+    background-image: url(../imeges/cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    max-width: 451px;
+    width: 371px;
+    height: 279px;
+}
+.txt2{
+    color: #909090;
+    max-width: 500px;
+    margin-left:76px;
+    line-height: 36px;
+}
+/*.clearfix{
+    clear: both;/* очистка флоата
+}*/
+.foot{
+    border: 1px solid #dddddd;
+}
+.date{
+    text-align: center;
+    color:#909090;
+    font-size: 15px;
+    font-weight: 400;
+}
